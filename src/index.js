@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
+  /**
+   * Represents the create task form element.
+   * @type {HTMLFormElement}
+   */
   const form = document.getElementById('create-task-form');
   
   if (form) {

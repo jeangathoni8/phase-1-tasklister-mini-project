@@ -29,6 +29,8 @@ function deleteTask(e){
 const deleteButton = document.createElement('button');
 deleteButton.textContent = 'X';
 deleteButton.className = "delete";
+tasks.remove();
+
 const tasks = document.getElementsByTagName('li');
 for (let i = 0; i < tasks.length; i++) {
   const task = tasks[i];
